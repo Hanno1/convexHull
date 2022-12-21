@@ -1,0 +1,99 @@
+.topnav {
+  background-color: #253039;
+  height: 55px;
+}
+
+.div_alg, .slidecontainer, .speed-btn, .speed-more-btn, .freezebutton, .continuebutton, .startbutton,
+.displayer, .forwardbtn, .backwardbtn, .distance {
+  vertical-align: middle;
+  position: relative;
+  display: inline-block;
+}
+
+.distance{
+  padding-right: 50px;
+}
+
+.label_alg {
+  font-size: 20px;
+}
+
+.div_alg, .select_alg {
+  font-size: 16px;
+  background-color: #253039;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.label_alg{
+  padding-right: 20px;
+}
+
+.buttons {
+  float: right;
+  padding-right: 50px;
+}
+
+.freezebtn, .continuebtn, .startbtn, .displayer, .forwardbtn, .backwardbtn, .speed-btn, .speed-more-btn {
+  background-color: #253039;
+  color: white;
+  padding: 16px;
+  font-size: 14px;
+  border: none;
+}
+
+.slider {
+  float: left;
+  -webkit-appearance: none;
+  width: 150px;
+  height: 10px;
+  border-radius: 2px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #04AA6D;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #04AA6D;
+  cursor: pointer;
+}
+
+.div_alg:hover .select_alg {background-color:  #151B20; }
+.startbtn:hover {background-color: #151B20;}
+.speed-btn:hover {background-color: #151B20;}
+.speed-more-btn:hover {background-color: #151B20;}
+.freezebtn:hover {background-color: #151B20;}
+.continuebtn:hover {background-color: #151B20;}
+.forwardbtn:hover {background-color: #151B20;}
+.backwardbtn:hover {background-color: #151B20;}
+
+.canvas {
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  width: 100% - 40px;
+  height: 40%;
+}
+
+#canvas {
+  width: 100%;
+  height: 800px;
+  border-style: solid;
+  border-color: red;
+}
